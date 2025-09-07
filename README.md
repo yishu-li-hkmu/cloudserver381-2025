@@ -4,3 +4,7 @@
 - Virtual Machine
 - Ubuntu in VMBox
 - Http request in NodeJS program
+
+## lab02
+- Demo of Expree-Weather App
+- MongoDB Setup
