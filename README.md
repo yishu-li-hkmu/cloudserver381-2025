@@ -8,3 +8,6 @@
 ## lab02
 - Demo of Expree-Weather App
 - MongoDB Setup
+
+## lab04
+- Handle JSON
