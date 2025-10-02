@@ -15,5 +15,10 @@
 ## lab05
 - Connect MongoDB with Node.js Driver
 
-  ## lab06
+## lab06
 - Http templates
+- Http samples: get / post
+- retangle: Use Node.js to handle HTTP Requests
+- mongodbserver: Develop a MongoDB Node.js server app
+- mongoose
+
