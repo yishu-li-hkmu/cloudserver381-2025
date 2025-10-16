@@ -24,3 +24,5 @@
 
 ## lab07
 - Express
+- Mongoose CRUD Examples
+- EJS
