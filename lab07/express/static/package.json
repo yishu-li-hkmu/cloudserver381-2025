@@ -1,7 +1,7 @@
 {
     "name": "server",
     "description": "Express Static App",
-    "author": "Yalin Liu <ylliu@hkmu.edu.hk>",
+    "author": "Cloud381 Instructor",
     "version": "0.0.1",
     "dependencies": {
         "express": "*"
