@@ -1,7 +1,7 @@
 {
     "name": "server",
     "description": "Node.js Session",
-    "author": "Raymond SO <rso@ouhk.edu.hk>",
+    "author": "Cloud381 Instructor",
     "version": "0.0.1",
     "dependencies": {
         "express": "*",
