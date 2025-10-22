@@ -221,7 +221,7 @@ app.post('/update', (req,res) => {
     handle_Update(req, res, req.query);
 })
 
-app.get('/*', (req,res) => {
+app.get('/{*splat}', (req,res) => {
     //res.status(404).send(`${req.path} - Unknown request!`);
     res.status(404).render('info', {message: `${req.path} - Unknown request!` });
     /* info.ejs
@@ -235,3 +235,4 @@ app.get('/*', (req,res) => {
 })
 
 app.listen(app.listen(process.env.PORT || 8099));
+
