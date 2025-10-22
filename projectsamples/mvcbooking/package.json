@@ -1,0 +1,17 @@
+{
+    "name": "server",
+    "description": "MVC Booking Project Demo",
+    "author": "Cloud381 Instructor",
+    "version": "0.0.1",
+    "dependencies": {
+        "ejs": "*",
+        "express": "*",
+        "express-formidable": "*",
+        "mongodb": "6.9.0",
+        "nodemon": "*"
+    },
+    "engine": "node >= 16.0.0",
+    "scripts": {
+        "start": "node server"
+    }
+}
