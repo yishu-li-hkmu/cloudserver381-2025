@@ -1,6 +1,6 @@
 {
 	"name": "middleware",
-	"description": "Cloud381 Instructor",
+	"description": "Express Static",
 	"version": "0.0.1",
 	"dependencies": {
 		"express": "latest",
