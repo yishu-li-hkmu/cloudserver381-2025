@@ -19,7 +19,7 @@ app.get('/simpleinterest', function(req,res) {
 		// provide a json response 
 		// curl -H "accept: application/json" "localhost:8099/simpleinterest?principal=10000&rate=0.01&time=10"
 	} else {
-		res.status(200).render('result',{result:r}).end();
+		res.status(200).render('result',{result:r});
 		// provide an EJS response 
 		// curl localhost:8099/simpleinterest?principal=10000&rate=0.01&time=10
 	}
