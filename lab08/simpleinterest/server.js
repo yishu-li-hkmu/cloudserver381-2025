@@ -15,7 +15,7 @@ class SimpleInterest {
 app.get('/simpleinterest', function(req,res) {
 	let r = new SimpleInterest(Number(req.query.principal), Number(req.query.rate), Number(req.query.time));
 	if (req.headers['accept'] == 'application/json') {		
-		res.status(200).type('json').json(r).end();
+		res.status(200).type('json').json(r);
 		// provide a json response 
 		// curl -H "accept: application/json" "localhost:8099/simpleinterest?principal=10000&rate=0.01&time=10"
 	} else {
@@ -28,7 +28,7 @@ app.get('/simpleinterest', function(req,res) {
 // RESTful services
 app.get('/api/simpleinterest/:principal/:rate/:time', function(req,res) {
 	let r = new SimpleInterest(Number(req.params.principal), Number(req.params.rate), Number(req.params.time));
-	res.status(200).type('json').json(r).end();
+	res.status(200).type('json').json(r);
 	// provide a json result
 	// curl "localhost:8099/api/simpleinterest/10000/0.01/10"
 });
