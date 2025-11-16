@@ -1,5 +1,5 @@
 # Creates a layer from the docker image
-FROM node:4-alpine
+FROM node:18-alpine
 # node:<version>-alpine, this image is based on the popular Alpine Linux project, available in the alpine official image. 
 # Alpine Linux is much smaller than most distribution base images (~5MB), and thus leads to much slimmer images in general.
 
