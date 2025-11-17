@@ -1,4 +1,4 @@
-# COMPS381F - Container Virtualization Using Docker
+# COMP3810SEF/COPMS381F - Container Virtualization Using Docker
 ## Introduction
 This tutorial demonstrates how you run an express.js server, which requires an older version of Node (version 4), using container virtualization.  
 
