@@ -230,7 +230,7 @@ app.use((req,res,next) => {
 const isLoggedIn = (req,res,next) => {
     if (req.isAuthenticated())
         return next();
-    res.redirect('/login', {user:req.user});
+    res.redirect('/login');
 }
 
 // Middleware 3,4,5, use
@@ -243,7 +243,7 @@ app.use(passport.session());
 
 // login page
 app.get("/login", function (req, res) {
-	res.status(200).render('login');
+	res.status(200).render('login', {user:req.user});
 });
 app.get("/auth/facebook", passport.authenticate("facebook", { scope : "email" }));
 app.get("/auth/facebook/callback",
